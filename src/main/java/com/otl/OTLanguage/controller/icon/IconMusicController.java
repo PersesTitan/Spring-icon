@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/icon/otl")
+@RequestMapping("/icon/music")
 public class IconMusicController implements IconMusic {
 
     @GetMapping(value = "/flat", produces = "image/svg+xml")
